@@ -1,6 +1,5 @@
 {% include "header.html" %}
-
-  <!-- Page Header -->
+<!-- Page Header -->
  <header class="masthead" style="background-image: url('https://images.unsplash.com/photo-1470092306007-055b6797ca72?ixlib=rb-1.2.1&auto=format&fit=crop&w=668&q=80')">
     <div class="overlay"></div>
     <div class="container">
@@ -30,7 +29,7 @@
           </a>
           <p class="post-meta">Posted by
             
-            #Changed from post.author as post.author is now a User object.
+          
             {{post.author.name}}
             on {{post.date}}
             {% if current_user.id == 1: %}
@@ -56,3 +55,4 @@
 
 
 {% include "footer.html" %}
+ 
