@@ -21,6 +21,7 @@ app.config['SQLALCHEMY_DATABASE_URI'] = r'sqlite:///C:/Users/NIKITA/PycharmProje
 app.config['SQLALCHEMY_TRACK_MODIFICATIONS'] = False
 db = SQLAlchemy(app)
 
+print("Hello")
 login_manager = LoginManager()
 login_manager.init_app(app)
 
